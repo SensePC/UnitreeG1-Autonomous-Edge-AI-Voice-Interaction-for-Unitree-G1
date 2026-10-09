@@ -194,3 +194,11 @@ The software architecture was designed with modular scalability in mind. Potenti
 *   **LLM-Driven Gestures:** Expanding the System Prompt so Gemini returns hidden mood tags (e.g., `[HAPPY]`, `[THINKING]`). A parser will strip these tags before TTS playback and trigger corresponding SDK arm animations and LED patterns.
 *   **Speaker Verification:** Integrating a lightweight neural network (e.g., SpeechBrain) parallel to the STT to extract biometric voice features, allowing the robot to recognize specific lab members by name.
 *   **Local Wake-Word Engine:** Replacing the Google API wake-word check with an offline solution (e.g., Picovoice Porcupine) to achieve zero bandwidth usage during Standby mode and instant trigger response.
+
+
+## Credits
+Originally developed by [Georgios Zacharioudakis](https://github.com/GeoZach08) at his internship in [Sense P.C.](https://github.com/SensePC)
+
+Original project: [GeoZach08/UnitreeG1-Autonomous-Edge-AI-Voice-Interaction-for-Unitree-G1](https://github.com/GeoZach08/UnitreeG1-Autonomous-Edge-AI-Voice-Interaction-for-Unitree-G1).
+
+This repository is maintained by the organization to preserve the original work and support potential future development.
